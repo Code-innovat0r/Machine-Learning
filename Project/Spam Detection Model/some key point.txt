@@ -1,0 +1,5 @@
+** Scope of more Improvement ****
+
+1. In the Programme, once you tranform the x data using CountVectorizer or TfidfVectorizer from the text to numeric you can scale those     numeric values using the minmax scaling not standard scalar because it gives negative values or navie base do not accept the -vs values..
+
+2. While coverting text to numeric in CountVectorizer or TfidfVectorizer you can tune the max_features hyper parameter to 3000 or any value so that it will use only given no of the most used words and remove outliers and move towards more accuracy..
